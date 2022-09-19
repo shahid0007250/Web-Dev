@@ -1,0 +1,55 @@
+body{
+    margin: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.logo{
+    width: 20vw;
+    font-size: x-large;
+}
+nav{
+    width: 40vw;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size:x-large;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+.bigImage{
+    width: 95vw;
+    margin-bottom: 4rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container>div{
+    text-align: center;
+}
+
+.container>div>p{
+    line-height: 2rem;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4rem;
+}
+footer p{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
